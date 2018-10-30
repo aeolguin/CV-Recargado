@@ -1,0 +1,137 @@
+body{
+   background-image: url(img/fondo.jpg);
+}
+
+h1 {
+    font-size: 36px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #389168;
+}
+
+h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #389168;
+    border-bottom: solid #389168;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration-line: none;
+    color: white;
+}
+
+.navegacion {
+    position: fixed;
+    width: 100%;
+    margin-bottom: 20px;
+    top: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    background-image: url(img/fondo.jpg);
+    padding-top: 20px;
+    z-index: 999;   
+}
+
+.foto img {
+    border-radius:100%; 
+    width:200px;
+    height:200px; 
+    opacity: 0.65;
+}
+
+.nav li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 0px;
+}
+
+.foto {
+    position: fixed;
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.foto p {
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #389168;
+}
+
+.desarrollo {
+    margin-left: 35%;
+    position: relative;
+    width: 50%;
+    margin-right: 15%;
+    margin-top: 150px;
+    box-sizing: border-box;
+}
+
+.orden {
+    display: inline-block;
+}
+
+#educacion img {
+    border-radius:100%; 
+    width:70px;
+    height:70px; 
+    margin-left: 25%;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+
+.datos1 {
+    color: white;
+    font-size: 18px;
+}
+
+.datos2 {
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+.datos3 {
+    width: 300px;
+    color: white;
+    font-size: 18px;
+}
+
+.q {
+    float: left;
+}
+
+.a {
+    float: left;
+}
+
+.subtitulo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.portfolio img {
+    border-radius:100%; 
+    widows: 100px;
+    height:100px; 
+    opacity: 0.65; 
+}
+
+.portfolio {
+    float: right;
+    width: 10%;
+    box-sizing: border-box;
+    position: fixed;
+    right: 0px;
+    top: 3%;
+}
